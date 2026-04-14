@@ -4,7 +4,7 @@ An interactive web app built with Python and Streamlit that analyzes student sco
 
 ## Live Demo
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://sannanali-grade-analyzer-app-hwjtfr.streamlit.app/)
 
 > Replace the link above with your actual Streamlit live link after deploying.
 
