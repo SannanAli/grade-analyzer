@@ -32,5 +32,3 @@ Then open `http://localhost:8501` in your browser.
 
 ## CSV Format
 Your CSV must have at a minimum a `Score` column. A `Name` column is optional.
-
-Your CSV must have at minimum a `Score` column. A `Name` column is optional.
