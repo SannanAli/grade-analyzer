@@ -142,10 +142,10 @@ if not show_names and "Name" in display_df.columns:
     display_df = display_df.drop(columns=["Name"])
 
 st.dataframe(
-    display_df.style.applymap(
+    display_df.style.map(
         lambda v: f"color: {grade_color(v)}" if v in ["A","B","C","D","F"] else "",
         subset=["Grade"]
-    ).applymap(
+    ).map(
         lambda v: "color: #27AE60" if v == "Pass" else "color: #E74C3C",
         subset=["Status"]
     ),
